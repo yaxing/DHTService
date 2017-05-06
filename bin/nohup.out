@@ -1,0 +1,4 @@
+
+> dhtservice@0.0.0 start /home/pi/Documents/DHTService
+> node ./bin/www
+

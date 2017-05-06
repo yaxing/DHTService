@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  div(ng-controller="DataController" class="center-div" fullscreen)  
+    treasure-overlay-spinner(active='spinner.active')
+      p time: {{time}}
+      table(style="font-size:60px")
+        tr
+          td {{data.temp}} °C
+          td {{data.hum}} %

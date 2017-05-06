@@ -1,12 +1,13 @@
 doctype html
-html(ng-app=dhtservice)
+html(ng-app="dhtservice")
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     block content
 
-script(src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js",type="application/javascript")
-script(src="app/app.js",type="application/javascript")
+script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js")
+script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js")
+script(src="app/angular-fullscreen.js")
 script(src="app/controllers.js",type="application/javascript")
-script(src="app/directives.js",type="application/javascript")
+script(src="app/treasure-overlay-spinner.js")
