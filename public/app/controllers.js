@@ -1,4 +1,4 @@
-var controllers = angular.module('dhtservice', ['ngAnimate', 'treasure-overlay-spinner']);
+var controllers = angular.module('dhtservice', ['ngAnimate', 'treasure-overlay-spinner', 'FBAngular']);
 
 controllers.controller('DataController', ['$scope', '$http', '$interval', 'dateFilter', function($scope, $http, $interval, dateFilter) {
 
